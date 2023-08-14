@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: pink;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+ }
+
+header ul li {
+  margin: 10px;
+}
+.logo{
+  width: 25%;
+}
+
+.Mujeres{
+  width: 100%;
+  background-color: pink;
+}
+.Mujeres img{
+    width: 100%;
+    height: 500px;
+}
+
+.Extra5 img{
+  width: 100%;
+  height: 500px;
+}
+
+.Extra8 img{
+  width: 100%;
+  height: 500px;
+}
+
+.Extra1 img{
+  width: 100%;
+  height: 500px;
+}
+
+img {
+  width: 250px;
+}
+
+h1 {
+  font-size: 34px;
+  color: rgb(106, 33, 106);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 24;
+  color: rgb(96, 53, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Presentacion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Presentacion h1 {
+  font-size: 35px;
+  color: black;
+}
+
+.Presentacion p {
+  width: 70%;
+  font-size: 30px;
+  padding: 10px;
+  font-family: "Lumanosimo", cursive;
+}
+
+#Ubicacion {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#Ubicacion iframe {
+  padding: 25px;
+  margin: 200px;
+}
+
+.Contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 15px 0 15px 0;
+  background-color: pink;
+}
+
+.Caja {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Caja img {
+  border-radius: 70%;
+}
+
+.Caja p {
+  font-size: 24px;
+}
+
+.Fotos img {
+  border-radius: 70%;
+}
+
+.carousel-inner{
+  background-color: pink;
+  width: 60%;
+  object-fit: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+  height:50%;
+}
+
+.btn-primary{
+  background-color: pink;
+  border-color: rgb(233, 97, 233);
+}
+
+.Luigi{
+  width: 20%;
+}
+

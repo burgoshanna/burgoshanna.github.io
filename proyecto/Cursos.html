@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cursos</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="./main.js"></script>
+   
+  </head>
+ <header>
+        <div>
+            <img src="Logo Esporas.jpg" alt="Logo de esporas" class="logo"/>
+        </div>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="Nosotros.html"><li>Nosotros</li></a>
+                <a href="Contacto.html"> <li>Contacto</li></a>
+                <a href="Cursos.html"><li>Cursos</li></a>
+                <a href="#Ubicacion"><li>Ubicacion</li></a>
+            </ul> 
+        </nav>
+    </header>
+             <div class="Extra5">
+                  <img src="Extra 5.jpeg" alt="Hongo sombrilla">
+            </div>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h1>Recoridos micológicos</h1>
+          <p>
+            Realizamos algunas salidas a campo al interior de la republica
+            mexicana para conocer mas sobre nuestre diversidad de hongos en
+            temporada de lluvias, por tanto debes estar preparado para las
+            condiciones climaticas que se nos presente.
+          </p>
+          <h4>Lugares para los recorridos</h4>
+          <!--contenedor general para poner todas las noticias-->
+          <div class="noticias">
+            <h4>Salidas a campo</h4>
+            <div id="contenido"> 
+              <p>
+                Tenemos varios destinos para realizar salidas de campo y conocer un 
+                ambiente completamente diferente como son: En la delegacion Magdalena
+                en los Dinamos, el parque Ejidal de San Nicolas Totolapan en la CDMX,
+                Chalmita en el Estado de Mexico, Faldas del Iztaccihuatl en el Estado 
+                de Mexico, entre otros lugares al interior de la republica.
+              </p>
+            </div>
+            <button onclick="muestra_oculta('contenido')" class="btn btn-primary"form="contenido"><img class=" Luigi" src="Icono para botones.jpg" alt="icono de un boton en forma de hongo"></button>
+          </div>
+
+          <img
+            src="Paisajes 1.jpg"
+            alt="Paisaje de un recorrido"
+            class="w-75 position-relative top-50 start-50 translate-middle"
+          />
+          
+        </div>
+        <div class="col-4">
+          <h1>Pláticas</h1>
+          <p>
+            Damos algunas platicas en linea via zoom y algunas otras son
+            presenciales en nuestras oficinas ubicadas en la Facultad de
+            Ciencias para dar a conocer la importancia de los hongos en nuestra
+            vida diaria.
+          </p>
+          <h4>Conozcamos a los hongos</h4>
+          
+          <!--contenedor general para poner todas las noticias-->
+          <div class="noticias">
+            <h4>Seminarios</h4>
+            <div id="contenido1"> 
+          
+            <p>
+              Ofrecemos diversas platicas y conferencias dirigidas a publico general
+              para que identifiquen y conozcan nuestra riqueza culinaria
+              y biologica de los hongos que viven a nuestro al rededor, estas platicas
+              se pueden realizar via zoom y presencial en alguna de las aulas de la 
+              Facultad de Ciencias ubicados en Investigación Científica, C.U.
+              Alcaldía Coyoacán, C.P. 04510 
+            </p>
+          </div>
+          <button onclick="muestra_oculta('contenido1')" class="btn btn-primary"form="contenido"><img class="Luigi" src="Icono para botones.jpg" alt="icono de un boton en forma de hongo"></button>
+          </div>
+
+          <img
+            src="Platica de hongos.JPG"
+            alt="Gente reunida platicando de hongos"
+            class="w-75 position-relative top-50 start-50 translate-middle"
+          />
+         
+        </div>
+        <div class="col-4">
+          <h1>Curso de cultivos</h1>
+          <p>
+            Impartimos algunos cursos para el cultivo de hongos comestibles,
+            estos cursos se imparten presencial en la Facultad de Ciencias UNAM
+            con cupo limitado.
+          </p>
+          <!--contenedor general para poner todas las noticias-->
+          <div class="noticias">
+            <!--tercer noticia-->
+          <h4>Cursos abiertos</h4>
+          <div id="contenido2"> 
+          <p>
+            Durante todo el año tenemos una variedad de cursos para que nuestros alumnos
+            aprendan a cultivar su propios hongos comestibles ya sea para uso 
+            personal o para uso comercial.
+            Ahora tenemos disponibles un curso el cual inicia el 30 de Septiembre
+            y concluye el 10 de Octubre.
+          </p>
+        </div>
+        <button onclick="muestra_oculta('contenido2')" class="btn btn-primary"form="contenido"><img class="Luigi" src="Icono para botones.jpg" alt="icono de un boton en forma de hongo"></button>
+        </div>
+          <img
+            src="Cultivo de hongo.jpg"
+            alt="Ejemplo de cultivo de hongo"
+            class="w-75 position-relative top-50 start-50 translate-middle"
+          />
+        
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
